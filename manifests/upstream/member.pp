@@ -6,7 +6,7 @@ define nginx::upstream::member(
   $down         = false,
   $weight       = 1,
   $max_fails    = 0,
-  $fail_timeout = 0,
+  $fail_timeout = 10,
   $backup       = false
 ) {
 
